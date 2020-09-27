@@ -1,17 +1,35 @@
+html {
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .row {
-    align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    min-height: 100vh;
+    align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
+    background-color: rgb(255,255,255,0.8);
     border-style: solid;
+    border-radius: .2rem;
+    font-family: 'Comfortaa', cursive;
     margin: 1rem;
-    min-width: 8%;
     padding: 1rem;
     text-align: center;
     transition: all .08s ease;
+    text-transform: uppercase;
+    width: 8rem;
 }
 
 .playing {
