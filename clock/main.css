@@ -1,56 +1,50 @@
+html {
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .clock {
-    position: absolute;
-    background-color: rgb(255, 208, 0);
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
     border-radius: 50%;
-    width: 33rem;
-    height: 33rem;
-    z-index: 1;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow:
+        0 0 10px rgb(0, 181, 253),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px rgb(0, 181, 253),
+        0 0 10px rgba(0,0,0,0.2);
 }
 
 .clock-face {
-    background-color: white;
-    border-radius: 50%;
-    width: 30rem;
-    height: 30rem;
+    width: 100%;
+    height: 100%;
     position: relative;
-    margin: 1.5rem;
-    z-index: 2;
 }
 
-.hour-hand {
-    background-color: red;
+.hand {
+    background-color: white;
+    border-radius: 3.2rem;
+    width: 50%;
+    height: 1.2rem;
     position: absolute;
-    width: 1.2rem;
-    height: 15rem;
-    left: 50%;
-    z-index: 3;
-    transform-origin: 0.6rem 15rem;
-}
-
-.minute-hand {
-    background-color: green;
-    position: absolute;
-    width: 1.2rem;
-    height: 16rem;
-    left: 50%;
-    z-index: 3;
-    transform-origin: 0.6rem 15rem;
-}
-
-.second-hand {
-    background-color: blue;
-    position: absolute;
-    width: 1.2rem;
-    height: 16rem;
-    left: 50%;
-    z-index: 3;
-    transform-origin: 0.6rem 15rem;
+    top: 50%;
+    transform-origin: 100%;
+    box-shadow:
+    0 0 10px rgb(0, 181, 253),
+    inset 0 0 0 3px #EFEFEF;
 }
