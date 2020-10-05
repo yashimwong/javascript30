@@ -1,4 +1,4 @@
-# Javascript30 Completed Challenges
+# 30 JavaScript, HTML & CSS Challenges
 30 Challenges for users to learn JavaScript, HTML and CSS fundamentals.
 Some challenges are from sourced from https://javascript30.com/ while some 
 are modified versions to suite learning needs.
