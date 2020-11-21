@@ -5,12 +5,12 @@ body {
 .button-group {
     display: block;
     text-align: right;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .container {
     width: 80%;
-    height: 860px;
+    height: 900px;
     background:
       linear-gradient(
       rgba(35,43,85,0.75),
@@ -31,8 +31,8 @@ body {
 }
 
 .form {
-    margin-top: 90px;
-    padding: 0px 80px 0px 80px;
+    margin-top: 60px;
+    padding: 0px 90px 0px 90px;
 }
 
 button {
@@ -46,7 +46,7 @@ button {
 input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
     display: block;
     width: 100%;
-    height: 34px;
+    height: 30px;
     border: none;
     border-radius: 5px;
     background: white;
@@ -55,7 +55,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
 }
 
 input[type="checkbox"] {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
