@@ -19,10 +19,10 @@ are modified versions to suite learning needs.
 
 4. Challenge #04: Form Validation
 + Must have the following input fields:
-    1. Name *[Firstname & Lastname. Auto-parse for malaysian bin/binti]*
-    2. Username *[Validation: Check if user exist. (Existing User: 'Administrator')]*
-    3. Email *[Validation: Must be in a@a.com format. Blocks known spam hosts]*
+    1. Name *[Firstname & Lastname. Must check for valid name]*
+    2. Username *[Minimum 8 characters in length. Must not contain symbols. Strictly alphanumeric.]*
+    3. Email *[Validation: Must be filled]*
     4. Date of Birth *[Validation: Must be in the dd/mm/yy format. Don't allow users under 13 to register.]*
-    5. Password/Confirm Password (Option to show/hide password) *[Validation: Min 8 characters. Must have numbers]*
-    6. Agree to the Terms & Agreements (Detect whether user had read the whole text)
+    5. Password/Confirm Password (Option to show/hide password) *[Validation: Min 8 characters. Must have numbers. Both passwords must match.]*
+    6. Agree to the Terms & Agreements (Users must select agree checkbox before proceeding.)
  + Submit & Cancel Button. Users can only submit if all inputs from 1 -> 6 is fulfilled.
