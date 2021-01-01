@@ -26,3 +26,5 @@ are modified versions to suite learning needs.
     5. Password/Confirm Password (Option to show/hide password) *[Validation: Min 8 characters. Must have numbers. Both passwords must match.]*
     6. Agree to the Terms & Agreements (Users must select agree checkbox before proceeding.)
  + Submit & Cancel Button. Users can only submit if all inputs from 1 -> 6 is fulfilled.
+ 
+ 5. Challenge #05: Drag and Drop Checklist
